@@ -1,2 +1,2 @@
-alert("hello")
-console.log("alert")
+/*testalert("hello")
+console.log("alert")*/

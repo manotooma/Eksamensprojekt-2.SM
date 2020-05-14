@@ -13,6 +13,7 @@ summary {}
 
 body {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -20,6 +21,17 @@ body {
 
 /* Universel-----------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
+h1{
+font-weight: 800;
+}
+h2{}
+h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+p{}
+=======
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -48,7 +60,90 @@ p {
 }
 
 
+
 /* Index-----------------------------------------------------------------------------*/
+
+#content {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#flex_dash_buttons {
+    display: flex;
+    
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.dashboard_buttons {
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    word-wrap: break-word;
+    line-height: 40px;
+    border-radius: 35px;
+    
+}
+
+#red-dash {
+    background-color: #f45b69;
+}
+
+#blue-dash {
+    background-color: #00B2CA;
+}
+#green-dash {
+    background-color: #44AF69;
+}
+#black-dash {
+    background-color: #272727;
+}
+
+
+@media only screen and (min-width:479px) {
+    #flex_dash_buttons {
+        width: 73%;
+    }
+    
+    .dashboard_buttons {
+        width: 110px;
+        padding: 22px;
+        font-size: 27px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    #flex_dash_buttons {
+        width: 60%;
+    }
+    
+    .dashboard_buttons {
+        width: 120px;
+        font-size: 30px;
+        padding: 25px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    #flex_dash_buttons {
+        width: 50%;
+    }
+    
+    .dashboard_buttons {
+        margin: 30px;
+        font-size: 35px;
+        width: 130px;
+        padding: 35px;
+    }
+}
+
 /* login Page-----------------------------------------------------------------------------*/
 .logogif{display: block;
   margin-left: auto;

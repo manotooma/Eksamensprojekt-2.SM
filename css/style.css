@@ -9,8 +9,7 @@ hgroup,
 main,
 nav,
 section,
-summary {
-}
+summary {}
 
 body {
     width: 100%;
@@ -22,6 +21,7 @@ body {
 
 /* Universel-----------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
 h1{
 font-weight: 800;
 }
@@ -31,6 +31,35 @@ h3{
     font-weight: 400;
 }
 p{}
+=======
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: ;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: ;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: ;
+}
+
+>>>>>>> 5dc493e5413d29cd19990a8230f6341c7c66375f
 
 /* Index-----------------------------------------------------------------------------*/
 

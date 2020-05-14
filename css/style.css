@@ -9,8 +9,7 @@ hgroup,
 main,
 nav,
 section,
-summary {
-}
+summary {}
 
 body {
     width: 100%;
@@ -21,11 +20,29 @@ body {
 
 /* Universel-----------------------------------------------------------------------------*/
 
-h1{font-family: 'Montserrat', sans-serif;
-font-weight: 800;}
-h2{}
-h3{}
-p{}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: ;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: ;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 22px color:;
+}
 
 /* Index-----------------------------------------------------------------------------*/
 /* login Page-----------------------------------------------------------------------------*/

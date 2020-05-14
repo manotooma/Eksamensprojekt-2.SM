@@ -229,29 +229,32 @@ p {
 /* join game-----------------------------------------------------------------------------*/
 
 
-#pin_billede1{overflow: hidden;
+#join_sec{margin: 2% 0 0 0 }
+#pin_billede1 {
+    overflow: hidden;
 }
 
 
-#pin_billede{
+#pin_billede {
+width: 100%;
+    height: auto
 
- margin-left: auto;
-  margin-right: auto;
-  width:100%;
+  
 }
+
 
 .square {
     width: 73%;
-    height: 240px;
+    height: ;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
-    background-color: aqua;
+    background-color: navajowhite;
 }
 
 #skrivpin {
     margin: 16% 0 0% 0;
-    Width: 237px;
+    Width: 90%;
     background-color: #F45B69;
     font-size: 22px
 }
@@ -259,8 +262,8 @@ p {
 
 #pin_input {
     text-align: center;
-    height: 25px;
-    margin: 6% 0 0% 0;
+    height: 29px;
+    margin: 6% 0 20% 0;
     width: 75%
 }
 
@@ -268,9 +271,19 @@ p {
     text-align: center;
 }
 
+#square_join {}
+
 
 /* Gameboard-----------------------------------------------------------------------------*/
 /* choose name -----------------------------------------------------------------------------*/
+
+#navn_billede1 {
+    overflow: hidden;
+}
+
+#navn_billede {}
+
+
 /* Waiting Room-----------------------------------------------------------------------------*/
 /* choose avatar-----------------------------------------------------------------------------*/
 /* Gameboard-----------------------------------------------------------------------------*/

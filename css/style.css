@@ -21,38 +21,7 @@ body {
 
 /* Header
 -----------------------------------------------------------------------------*/
-.header {
-    height: 150px;
-    background: #FFE680;
-}
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0.4% 0 0% 0;
-    overflow: hidden;
-    display: block;
-}
 
-header li {
-    float: right;
-    padding: 0% 2.0% 0 0
-}
-
-header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2px 3px;
-    text-decoration: none;
-    font-family: ;
-    font-size: 10px;
-    color: black;
-}
-
-header li a:hover {
-    font-size: 80%;
-    transition: 0.3s;
-}
 
 /* Middle
 -----------------------------------------------------------------------------*/

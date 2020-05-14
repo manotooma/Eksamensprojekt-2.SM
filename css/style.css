@@ -20,6 +20,22 @@ body {
 
 
 /* Universal -----------------------------------------------------------------------------*/
+
+ /* Buttons */
+
+.red_button {
+	background-color:#f45968;
+	border-radius:35px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 31px;
+	text-decoration:none;
+}
+
+
 /* Index-----------------------------------------------------------------------------*/
 /* login Page-----------------------------------------------------------------------------*/
 /* join game-----------------------------------------------------------------------------*/

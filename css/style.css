@@ -59,14 +59,14 @@ p {
     /* Green */
     border: none;
     color: white;
-    padding: 9px 40px;
-    border-radius: 25px;
+    padding: 20px 80px;
+    border-radius: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 
@@ -166,7 +166,9 @@ p {
 }
 #unilogin{background-color: #272727;}
 
-#licens{padding: 9px 30px;}
+#licens{background-color: #FF;
+    padding: 20px 69px;
+   color: #272727;}
 
 
 /* join game-----------------------------------------------------------------------------*/

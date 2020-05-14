@@ -72,6 +72,10 @@ p {
     font-size: 26px;
 }
 
+a { 
+text-decoration: none;
+}
+
 
 
 /* Index-----------------------------------------------------------------------------*/
@@ -149,7 +153,7 @@ p {
     word-wrap: break-word;
     line-height: 40px;
     border-radius: 35px;
-
+text-decoration: none;
     text-align: center;
 
 }

@@ -14,7 +14,7 @@ summary {}
 body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    
+
 
 }
 
@@ -28,7 +28,7 @@ h1 {
     font-weight: 800;
     font-size: 70px;
     color: ;
-} 
+}
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -50,15 +50,38 @@ p {
     color: ;
 }
 
+.button_placement {
+    text-align: center;
+    margin: 20px 0 20px 0
+}
+
+.button {
+    ;
+    /* Green */
+    border: none;
+    width: 70%;
+    color: white;
+    padding: 16px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+
 
 
 /* Index-----------------------------------------------------------------------------*/
 
 #content {
-    
+
     margin: 0 auto;
+
+
     text-align: center;
-    
+
 }
 
 
@@ -69,27 +92,28 @@ p {
 
 .swiper-container {
     margin: 20px;
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
 
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 
@@ -99,12 +123,12 @@ p {
 
 .kom_i_gang h3 {
     padding-bottom: 20px;
-    
+    5
 }
 
 #flex_dash_buttons {
     display: flex;
-    
+
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -121,8 +145,9 @@ p {
     word-wrap: break-word;
     line-height: 40px;
     border-radius: 35px;
+
     text-align: center;
-    
+
 }
 
 #red-dash {
@@ -132,9 +157,11 @@ p {
 #blue-dash {
     background-color: #00B2CA;
 }
+
 #green-dash {
     background-color: #44AF69;
 }
+
 #black-dash {
     background-color: #272727;
 }
@@ -144,7 +171,7 @@ p {
     #flex_dash_buttons {
         width: 73%;
     }
-    
+
     .dashboard_buttons {
         width: 110px;
         padding: 22px;
@@ -156,7 +183,7 @@ p {
     #flex_dash_buttons {
         width: 60%;
     }
-    
+
     .dashboard_buttons {
         width: 120px;
         font-size: 30px;
@@ -169,7 +196,7 @@ p {
     #flex_dash_buttons {
         width: 50%;
     }
-    
+
     .dashboard_buttons {
         margin: 30px;
         font-size: 35px;
@@ -179,13 +206,68 @@ p {
 }
 
 /* login Page-----------------------------------------------------------------------------*/
-.logogif{display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin-top: 46%;
-  width: 50%;}
+.logogif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60%;
+    margin-bottom: 20%;
+    width: %;
+}
+
+#unilogin {
+    background-color: #272727;
+}
+
+#licens {
+    background-color: ;
+
+    color: #272727;
+}
+
 
 /* join game-----------------------------------------------------------------------------*/
+
+
+#pin_billede1{overflow: hidden;
+}
+
+
+#pin_billede{
+    overflow: hidden;
+ margin-left: auto;
+  margin-right: auto;
+  width:100%;}
+
+.square {
+    width: 73%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background-color: aqua;
+}
+
+#skrivpin {
+    margin: 16% 0 0% 0;
+    Width: 267px;
+    background-color: #F45B69;
+    font-size: 22px
+}
+
+
+#pin_input {
+    text-align: center;
+    height: 25px;
+    margin: 4% 0 0% 0;
+    width: 73%
+}
+
+.textcontainer {
+    text-align: center;
+}
+
+
 /* Gameboard-----------------------------------------------------------------------------*/
 /* choose name -----------------------------------------------------------------------------*/
 /* Waiting Room-----------------------------------------------------------------------------*/

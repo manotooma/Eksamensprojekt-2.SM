@@ -41,6 +41,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 26px;
+    color: #272727;
 }
 
 p {
@@ -91,7 +92,7 @@ p {
 }
 
 .swiper-container {
-    margin: 20px;
+    margin: 30px;
     width: 100%;
     height: 100%;
 }
@@ -118,10 +119,13 @@ p {
 
 
 .kom_i_gang {
-    margin-top: 50px;
+    
+    margin: 0 auto;
+    text-align: center;
 }
 
 .kom_i_gang h3 {
+    margin-top: 50px;
     padding-bottom: 20px;
     5
 }
@@ -194,7 +198,7 @@ p {
 
 @media only screen and (min-width:980px) {
     #flex_dash_buttons {
-        width: 50%;
+        width: 60%;
     }
 
     .dashboard_buttons {

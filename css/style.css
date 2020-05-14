@@ -227,6 +227,47 @@ p {
 
 
 /* join game-----------------------------------------------------------------------------*/
+
+
+#pin_billede1{overflow: hidden;
+}
+
+
+#pin_billede{
+    overflow: hidden;
+ margin-left: auto;
+  margin-right: auto;
+  width:100%;}
+
+.square {
+    width: 73%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background-color: aqua;
+}
+
+#skrivpin {
+    margin: 16% 0 0% 0;
+    Width: 267px;
+    background-color: #F45B69;
+    font-size: 22px
+}
+
+
+#pin_input {
+    text-align: center;
+    height: 25px;
+    margin: 4% 0 0% 0;
+    width: 73%
+}
+
+.textcontainer {
+    text-align: center;
+}
+
+
 /* Gameboard-----------------------------------------------------------------------------*/
 /* choose name -----------------------------------------------------------------------------*/
 /* Waiting Room-----------------------------------------------------------------------------*/

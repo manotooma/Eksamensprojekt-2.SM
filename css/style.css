@@ -60,7 +60,7 @@ p {
     ;
     /* Green */
     border: none;
-    width: 70%;
+    width: 250px;
     color: white;
     padding: 16px;
     border-radius: 40px;
@@ -72,8 +72,8 @@ p {
     font-size: 26px;
 }
 
-a { 
-text-decoration: none;
+a {
+    text-decoration: none;
 }
 
 
@@ -130,7 +130,7 @@ text-decoration: none;
 
 
 .kom_i_gang {
-    
+
     margin: 0 auto;
     text-align: center;
 }
@@ -147,7 +147,7 @@ text-decoration: none;
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: enter;
 }
 
 .dashboard_buttons {
@@ -160,7 +160,7 @@ text-decoration: none;
     word-wrap: break-word;
     line-height: 40px;
     border-radius: 35px;
-text-decoration: none;
+    text-decoration: none;
     text-align: center;
 
 }
@@ -226,12 +226,13 @@ text-decoration: none;
 
 /* login Page-----------------------------------------------------------------------------*/
 .logogif {
+    overflow: hidden;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60%;
+    margin-top: 90px;
     margin-bottom: 20%;
-    width: %;
+    
 }
 
 #unilogin {
@@ -243,28 +244,45 @@ text-decoration: none;
 
     color: #272727;
 }
+@media only screen and (min-width: 361px) {
+    .logogif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70%;
+    margin-bottom: 20%;
+    
+    
+    
+}
 
 
 /* join game-----------------------------------------------------------------------------*/
 
 
-#join_sec{margin: 2% 0 0 0 }
-#pin_billede1 {
-    overflow: hidden;
+
+
+#join_sec {
+    margin: 0 0 0 0;
+    overflow: hidden
+
 }
 
 
-#pin_billede {
-width: 100%;
-    height: auto
 
-  
+#pin_billede {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 230px;
+
 }
 
 
 .square {
-    width: 73%;
-    height: ;
+    width: 270px;
+    height: auto;
+    margin: 11% 0 0 0;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
@@ -273,7 +291,7 @@ width: 100%;
 
 #skrivpin {
     margin: 16% 0 0% 0;
-    Width: 90%;
+    Width: 210px;
     background-color: #F45B69;
     font-size: 22px
 }
@@ -292,16 +310,47 @@ width: 100%;
 
 #square_join {}
 
+@media only screen and (min-width: 360px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 380px;
+
+    }
+}
 
 /* Gameboard-----------------------------------------------------------------------------*/
 /* choose name -----------------------------------------------------------------------------*/
 
 #navn_billede1 {
     overflow: hidden;
+    
 }
 
-#navn_billede {}
-
+#navn_billede {
+    overflow: hidden;
+    display: block;
+    width: 410px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (min-width: 360px) {
+    
+    #navn_billede {
+    overflow: hidden;
+    display: block;
+    width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+    
+    
+    
+    
+    
+}
 
 /* Waiting Room-----------------------------------------------------------------------------*/
 /* choose avatar-----------------------------------------------------------------------------*/

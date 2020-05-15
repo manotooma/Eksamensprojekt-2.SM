@@ -91,7 +91,7 @@ text-decoration: none;
 
 
 .velkommen {
-    margin-top: 40px;
+    padding-top: 10%;
     text-align: center;
 }
 
@@ -295,6 +295,32 @@ width: 100%;
 /* Waiting Room-----------------------------------------------------------------------------*/
 /* choose avatar-----------------------------------------------------------------------------*/
 /* Gameboard-----------------------------------------------------------------------------*/
+
+
+
+.large-top-text {
+    text-align: center;
+    padding-top: 10%;
+    line-height: 70px;
+}
+
+.scrolling-wrapper {
+      overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+    display: none;
+  }
+    
+}
+
+.card {
+    display: inline-block;
+  }
+
+
+
 /* Waiting-----------------------------------------------------------------------------*/
 /* Question-----------------------------------------------------------------------------*/
 /* Answer-----------------------------------------------------------------------------*/

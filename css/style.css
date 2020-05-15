@@ -68,8 +68,12 @@ p {
     text-decoration: none;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 26px;
+}
+
+#green-button {
+    background-color: #44AF69;
 }
 
 a {
@@ -147,7 +151,7 @@ a {
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: enter;
+    justify-content: center;
 }
 
 .dashboard_buttons {
@@ -255,7 +259,35 @@ a {
     
     
 }
-
+    
+    
+    
+/* Pin -----------------------------------------------------------------------------*/
+    .lower-area {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .code-boxes {
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 140px;
+    }
+    
+    .code-box {
+        padding: 10px;
+        
+    }
+    
+    .code-box input {
+        border:1px solid #ccc; 
+        border-radius: 15px;
+        height: 60px;
+        width: 40px;
+    }
+    
 
 /* join game-----------------------------------------------------------------------------*/
 

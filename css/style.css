@@ -72,10 +72,37 @@ p {
     font-size: 26px;
 }
 
+
+.square {
+    width: 270px;
+    height: 210px;
+    margin: 11% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: navajowhite;
+}
+
 a {
     text-decoration: none;
 }
-
+@media only screen and (min-width: 720px) {
+    
+  
+    
+.square {
+    width: 320px;
+    height: 210px;
+    margin: 1% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: navajowhite;
+}
+    
+    
+    
+}
 
 
 /* Index-----------------------------------------------------------------------------*/
@@ -91,7 +118,7 @@ a {
 
 
 .velkommen {
-    padding-top: 10%;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -140,7 +167,7 @@ a {
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: enter;
+    justify-content: center;
 }
 
 .dashboard_buttons {
@@ -233,18 +260,18 @@ a {
 
     color: #272727;
 }
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 370px) {
     .logogif {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70%;
+    margin-top: 50%;
     margin-bottom: 20%;
     
     
     
 }
-
+}
 
 /* join game-----------------------------------------------------------------------------*/
 
@@ -268,15 +295,6 @@ a {
 }
 
 
-.square {
-    width: 270px;
-    height: auto;
-    margin: 11% 0 0 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    background-color: navajowhite;
-}
 
 #skrivpin {
     margin: 16% 0 0% 0;
@@ -286,11 +304,10 @@ a {
 }
 
 
-#pin_input {
+#p_joingame {
     text-align: center;
     height: 29px;
-    margin: 6% 0 20% 0;
-    width: 75%
+    margin: 13% 0 0% 0;
 }
 
 .textcontainer {
@@ -299,7 +316,7 @@ a {
 
 #square_join {}
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 370px) {
     #pin_billede {
         display: block;
         margin-right: auto;
@@ -308,9 +325,29 @@ a {
 
     }
 }
+@media only screen and (min-width: 720px){
+    
+  #skrivpin {
+    margin: % 0 0% 0;
+    Width: 210px;
+    background-color: #F45B69;
+    font-size: 22px
+}  
+     #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 780px;
+    }
+}
+    
+    
+}
 
 /* Gameboard-----------------------------------------------------------------------------*/
 /* choose name -----------------------------------------------------------------------------*/
+
+#name_sec{overflow: hidden}
 
 #navn_billede1 {
     overflow: hidden;
@@ -324,15 +361,31 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
-@media only screen and (min-width: 360px) {
+
+
+
+
+
+@media only screen and (min-width: 375px) {
     
     #navn_billede {
     overflow: hidden;
     display: block;
-    width: 680px;
+    width: 650px;
     margin-right: auto;
     margin-left: auto;
+}    
 }
+@media only screen and (min-width: 720px) {
+    
+        
+   #navn_billede {
+    overflow: hidden;
+    display: block;
+    width: 1450px;
+    margin-right: auto;
+    margin-left: auto; 
+ 
     
     
     
@@ -344,32 +397,6 @@ a {
 /* Waiting Room-----------------------------------------------------------------------------*/
 /* choose avatar-----------------------------------------------------------------------------*/
 /* Gameboard-----------------------------------------------------------------------------*/
-
-
-
-.large-top-text {
-    text-align: center;
-    padding-top: 10%;
-    line-height: 70px;
-}
-
-.scrolling-wrapper {
-      overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-    display: none;
-  }
-    
-}
-
-.card {
-    display: inline-block;
-  }
-
-
-
 /* Waiting-----------------------------------------------------------------------------*/
 /* Question-----------------------------------------------------------------------------*/
 /* Answer-----------------------------------------------------------------------------*/

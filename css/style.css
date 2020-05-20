@@ -233,20 +233,17 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50%;
+    margin-top: 30%;
     margin-bottom: 20%;
 }
 
-
-
-}
 
 #unilogin {
     background-color: #272727;
 }
 
 #licens {
-    background-color: ;
+    background-color: 272727;
 
     color: #272727;
 }
@@ -256,352 +253,351 @@ a {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 70%;
+        margin-top: 50%;
         margin-bottom: 20%;
 
 
 
     }
+}
 
-    @media only screen and (min-width: 1320px) {
-        .logogif {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 300px;
-            margin-bottom: 5%;
-        }
 
+@media only screen and (min-width: 361px) {
+    .logogif {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;
+        margin-bottom: 20%;
 
 
-        /* Pin -----------------------------------------------------------------------------*/
-        .lower-area {
-            display: flex;
-            justify-content: center;
 
-        }
+    }
+}
 
-        .code-boxes {
-            margin-top: -40px;
-            display: flex;
-            justify-content: center;
-            padding-bottom: 140px;
-        }
 
-        .code-box {
-            padding: 10px;
-
-        }
-
-        .code-box input {
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            height: 60px;
-            width: 40px;
-        }
-
-
-        /* join game-----------------------------------------------------------------------------*/
-
-
-
-
-        #join_sec {
-            margin: 0 0 0 0;
-            overflow: hidden
-        }
-
-
-
-        #pin_billede {
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            width: 230px;
-
-        }
-
-
-
-        .square {
-            width: 320px;
-            height: 210px;
-            margin: 1% 0 0 0;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 30px;
-            background-color: navajowhite;
-        }
-
-
-
-        #skrivpin {
-            margin: 16% 0 0% 0;
-            Width: 210px;
-            background-color: #F45B69;
-            font-size: 22px
-        }
-
-
-        #pin_input {
-            text-align: center;
-            height: 29px;
-            margin: 6% 0 20% 0;
-            width: 75%
-        }
-
-        .textcontainer {
-            text-align: center;
-        }
-
-        #square_join {}
-
-        @media only screen and (min-width: 360px) {
-            #pin_billede {
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                width: 380px;
-
-            }
-        }
-
-        @media only screen and (min-width: 720px) {
-
-            #skrivpin {
-                margin: 16% 0 0% 0;
-                Width: 210px;
-                background-color: #F45B69;
-                font-size: 22px
-            }
-
-            #pin_billede {
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                margin-top: 100px;
-                width: 780px;
-            }
-        }
-
-
-        @media only screen and (min-width: 760px) {
-            #pin_billede {
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                margin-top: 100px;
-                width: 480px;
-            }
-
-
-
-            #skrivpin {
-                margin: 16% 0 0% 0;
-                Width: 210px;
-                background-color: #F45B69;
-                font-size: 22px
-            }
-        }
-
-        @media only screen and (min-width: 1010px) {
-            #pin_billede {
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                margin-top: 100px;
-                width: 780px;
-            }
-        }
-
-        @media only screen and (min-width: 1030px) {
-            #pin_billede {
-                display: block;
-                margin-right: auto;
-                margin-left: auto;
-                margin-top: 100px;
-                width: 480px;
-            }
-        }
-
-        /* Right Answer-----------------------------------------------------------------------------*/
-
-        #right-answer {
-            height: 10000px;
-            width: 100%;
-            background-color: #51C77A;
-
-        }
-
-        .wrong-or-right-answer {
-            text-align: center;
-            position: absolute;
-            left: 50%;
-            margin-left: -140px;
-            top: 40%;
-            margin-top: -40px;
-            color: white;
-            line-height: 60px;
-
-
-        }
-
-        .wrong-or-right-answer h3 {
-            color: white;
-            font-weight: 300
-        }
-
-        /* Wrong Answer-----------------------------------------------------------------------------*/
-
-
-        #wrong-answer {
-            height: 10000px;
-            width: 100%;
-            background-color: #F45B69;
-
-        }
-
-        .wrong-or-right-answer {
-            text-align: center;
-            position: absolute;
-            left: 50%;
-            margin-left: -140px;
-            top: 40%;
-            margin-top: -40px;
-            color: white;
-            line-height: 60px;
-
-
-        }
-
-        .wrong-or-right-answer h3 {
-            color: white;
-            font-weight: 300
-        }
-
-
-
-        /* choose name -----------------------------------------------------------------------------*/
-
-        #navn_billede1 {
-            overflow: hidden;
-
-        }
-
-        #navn_billede {
-            overflow: hidden;
-            display: block;
-            width: 410px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-        @media only screen and (min-width: 360px) {
-
-            #navn_billede {
-                overflow: hidden;
-                display: block;
-                width: 680px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-
-
-
-
-
-
-        }
-
-
-        #navn_billede {
-            overflow: hidden;
-            display: block;
-            width: 1400px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 100px
-        }
+@media only screen and (min-width: 1320px) {
+    .logogif {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        margin-bottom: 5%;
     }
 
-    @media only screen and (min-width: 760px) {
+}
+
+/* Pin -----------------------------------------------------------------------------*/
+.lower-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.code-boxes {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.code-box {
+    padding: 10px;
+
+}
+
+.code-box input {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    height: 60px;
+    width: 40px;
+}
 
 
-        #navn_billede {
-            overflow: hidden;
-            display: block;
-            width: 900px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 100px
-        }
+/* join game-----------------------------------------------------------------------------*/
+
+
+
+
+#join_sec {
+    margin: 0 0 0 0;
+    overflow: hidden
+}
+
+
+
+#pin_billede {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 230px;
+
+}
+
+
+
+.square {
+    width: 320px;
+    height: 210px;
+    margin: 1% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: navajowhite;
+}
+
+
+
+#skrivpin {
+    margin: 16% 0 0% 0;
+    Width: 210px;
+    background-color: #F45B69;
+    font-size: 22px
+}
+
+
+#pin_input {
+    text-align: center;
+    height: 29px;
+    margin: 6% 0 20% 0;
+    width: 75%
+}
+
+.textcontainer {
+    text-align: center;
+}
+
+#square_join {}
+
+@media only screen and (min-width: 360px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 380px;
+
+    }
+}
+
+@media only screen and (min-width: 720px) {
+
+    #skrivpin {
+        margin: 16% 0 0% 0;
+        Width: 210px;
+        background-color: #F45B69;
+        font-size: 22px
     }
 
-    @media only screen and (min-width: 1020px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 780px;
+    }
+}
 
 
-        #navn_billede {
-            overflow: hidden;
-            display: block;
-            width: 1200px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 100px
-        }
+@media only screen and (min-width: 760px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 480px;
     }
 
 
-    @media only screen and (min-width: 1030px) {
+
+    #skrivpin {
+        margin: 16% 0 0% 0;
+        Width: 210px;
+        background-color: #F45B69;
+        font-size: 22px
+    }
+}
+
+@media only screen and (min-width: 1010px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 780px;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 480px;
+    }
+}
+
+/* Right Answer-----------------------------------------------------------------------------*/
+
+#right-answer {
+    height: 10000px;
+    width: 100%;
+    background-color: #51C77A;
+
+}
+
+.wrong-or-right-answer {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -140px;
+    top: 40%;
+    margin-top: -40px;
+    color: white;
+    line-height: 60px;
 
 
-        #navn_billede {
-            overflow: hidden;
-            display: block;
-            width: 850px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-top: 100px
-        }
+}
+
+.wrong-or-right-answer h3 {
+    color: white;
+    font-weight: 300
+}
+
+/* Wrong Answer-----------------------------------------------------------------------------*/
+
+
+#wrong-answer {
+    height: 10000px;
+    width: 100%;
+    background-color: #F45B69;
+
+}
+
+.wrong-or-right-answer {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -140px;
+    top: 40%;
+    margin-top: -40px;
+    color: white;
+    line-height: 60px;
+
+
+}
+
+.wrong-or-right-answer h3 {
+    color: white;
+    font-weight: 300
+}
+
+
+
+/* choose name -----------------------------------------------------------------------------*/
+
+#navn_billede1 {
+    overflow: hidden;
+
+}
+
+#navn_billede {
+    overflow: hidden;
+    width: 410px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 360px) {
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 680px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+@media only screen and (min-width: 760px) {
+
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    }
+}
+
+
+@media only screen and (min-width: 1030px) {
+
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 850px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    }
+}
+
+/* Waiting Room-----------------------------------------------------------------------------*/
+/* choose avatar-----------------------------------------------------------------------------*/
+/* Gameboard-----------------------------------------------------------------------------*/
+
+
+
+.large-top-text {
+    text-align: center;
+    padding-top: 10%;
+    line-height: 70px;
+    padding-bottom: 80px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+        display: none;
     }
 
-    /* Waiting Room-----------------------------------------------------------------------------*/
-    /* choose avatar-----------------------------------------------------------------------------*/
-    /* Gameboard-----------------------------------------------------------------------------*/
+}
+
+.card {
+    display: inline-block;
+}
 
 
-
-    .large-top-text {
-        text-align: center;
-        padding-top: 10%;
-        line-height: 70px;
-        padding-bottom: 80px;
-    }
-
-    .scrolling-wrapper {
-        overflow-x: scroll;
-        overflow-y: hidden;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
-
-    }
-
-    .card {
-        display: inline-block;
-    }
+@media only screen and (min-width:)
+/* Waiting-----------------------------------------------------------------------------*/
+/* Question-----------------------------------------------------------------------------*/
+/* Answer-----------------------------------------------------------------------------*/
+/* Winner-----------------------------------------------------------------------------*/
 
 
-    @media only screen and (min-width:)
-    /* Waiting-----------------------------------------------------------------------------*/
-    /* Question-----------------------------------------------------------------------------*/
-    /* Answer-----------------------------------------------------------------------------*/
-    /* Winner-----------------------------------------------------------------------------*/
-
-
-    /* Scoreboard-----------------------------------------------------------------------------*/
+/* Scoreboard-----------------------------------------------------------------------------*/
 
 
 
@@ -612,13 +608,13 @@ a {
 
 
 
-    /*Media@
+/*Media@
 ---------------------------------------------------------------------------*/
-    /* For width bigger than px: */
-    @media only screen and (min-width: 240px) {}
+/* For width bigger than px: */
+@media only screen and (min-width: 240px) {}
 
-    @media only screen and (min-width: 360px) {}
+@media only screen and (min-width: 360px) {}
 
-    @media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {}
 
-    @media only screen and (min-width: 720px) {}
+@media only screen and (min-width: 720px) {}

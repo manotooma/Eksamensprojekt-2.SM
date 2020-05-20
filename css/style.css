@@ -72,6 +72,16 @@ p {
     font-size: 26px;
 }
 
+
+.square {
+    width: 270px;
+    height: 210px;
+    margin: 11% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: navajowhite;
+	
 #green-button {
     background-color: #44AF69;
 }
@@ -80,6 +90,23 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 720px) {
+
+
+
+    .square {
+        width: 320px;
+        height: 210px;
+        margin: 1% 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        background-color: navajowhite;
+    }
+
+
+
+}
 
 
 /* Index-----------------------------------------------------------------------------*/
@@ -95,6 +122,7 @@ a {
 
 
 .velkommen {
+    margin-top: 40px;
     padding-top: 10%;
     padding-bottom: 5%;
     text-align: center;
@@ -236,7 +264,7 @@ a {
     margin-right: auto;
     margin-top: 90px;
     margin-bottom: 20%;
-    
+
 }
 
 #unilogin {
@@ -248,17 +276,28 @@ a {
 
     color: #272727;
 }
-@media only screen and (min-width: 361px) {
+
+@media only screen and (min-width: 370px) {
     .logogif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70%;
-    margin-bottom: 20%;
-    
-    
-    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;
+        margin-bottom: 20%;
+
+
+
+    }
 }
+@media only screen and (min-width: 1320px) {
+    .logogif {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+        margin-bottom: 5%;
+
+
     
     
     
@@ -287,7 +326,9 @@ a {
         height: 60px;
         width: 40px;
     }
-    
+
+    }
+}
 
 /* join game-----------------------------------------------------------------------------*/
 
@@ -297,7 +338,6 @@ a {
 #join_sec {
     margin: 0 0 0 0;
     overflow: hidden
-
 }
 
 
@@ -306,20 +346,10 @@ a {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 230px;
-
-}
-
-
-.square {
     width: 270px;
-    height: auto;
-    margin: 11% 0 0 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    background-color: navajowhite;
 }
+
+
 
 #skrivpin {
     margin: 16% 0 0% 0;
@@ -329,11 +359,10 @@ a {
 }
 
 
-#pin_input {
+#p_joingame {
     text-align: center;
     height: 29px;
-    margin: 6% 0 20% 0;
-    width: 75%
+    margin: 13% 0 0% 0;
 }
 
 .textcontainer {
@@ -342,7 +371,7 @@ a {
 
 #square_join {}
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 370px) {
     #pin_billede {
         display: block;
         margin-right: auto;
@@ -351,6 +380,65 @@ a {
 
     }
 }
+@media only screen and (min-width: 720px) {
+
+    #skrivpin {
+        margin: 16% 0 0% 0;
+        Width: 210px;
+        background-color: #F45B69;
+        font-size: 22px
+    }
+
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 780px;
+    }
+}
+
+
+@media only screen and (min-width: 760px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 480px;
+    }
+    
+    
+    
+    #skrivpin {
+        margin: 16% 0 0% 0;
+        Width: 210px;
+        background-color: #F45B69;
+        font-size: 22px
+    }
+}
+
+@media only screen and (min-width: 1010px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 780px;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    #pin_billede {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        width: 480px;
+    }
+}
+
+/* Gameboard-----------------------------------------------------------------------------*/
 
 /* Right Answer-----------------------------------------------------------------------------*/
     
@@ -411,11 +499,16 @@ a {
     
     
     
+
 /* choose name -----------------------------------------------------------------------------*/
+
+#name_sec {
+    overflow: hidden;
+}
 
 #navn_billede1 {
     overflow: hidden;
-    
+
 }
 
 #navn_billede {
@@ -425,29 +518,35 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
-@media only screen and (min-width: 360px) {
-    
+
+
+
+
+
+@media only screen and (min-width: 375px) {
+
     #navn_billede {
-    overflow: hidden;
-    display: block;
-    width: 680px;
-    margin-right: auto;
-    margin-left: auto;
-}
-    
-    
-    
-    
-    
-    
+        overflow: hidden;
+        display: block;
+        width: 650px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-/* Waiting Room-----------------------------------------------------------------------------*/
-/* choose avatar-----------------------------------------------------------------------------*/
-/* Gameboard-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 720px) {
 
 
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    } }
 
+@media only screen and (min-width: 760px) {
 .large-top-text {
     text-align: center;
     padding-top: 10%;
@@ -466,21 +565,58 @@ a {
     
 }
 
-.card {
-    display: inline-block;
-  }
 
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    } }
+
+@media only screen and (min-width: 1020px) {
+
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width:1200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    } }
 
 @media only screen and (min-width:)
 
 
+    @media only screen and (min-width: 1030px) {
+
+
+    #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 850px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px
+    }
+}
+
+    /* Waiting Room-----------------------------------------------------------------------------*/
+    /* choose avatar-----------------------------------------------------------------------------*/
+    /* Gameboard-----------------------------------------------------------------------------*/
+    /* Waiting-----------------------------------------------------------------------------*/
+    /* Question-----------------------------------------------------------------------------*/
+    /* Answer-----------------------------------------------------------------------------*/
+    /* Winner-----------------------------------------------------------------------------*/
+    /* Scoreboard-----------------------------------------------------------------------------*/
 /* Waiting-----------------------------------------------------------------------------*/
 /* Question-----------------------------------------------------------------------------*/
 /* Answer-----------------------------------------------------------------------------*/
 /* Winner-----------------------------------------------------------------------------*/
 
 
-/* Scoreboard-----------------------------------------------------------------------------*/
 
 
 
@@ -491,13 +627,13 @@ a {
 
 
 
-/*Media@
+    /*Media@
 ---------------------------------------------------------------------------*/
-/* For width bigger than px: */
-@media only screen and (min-width: 240px) {}
+    /* For width bigger than px: */
+    @media only screen and (min-width: 240px) {}
 
-@media only screen and (min-width: 360px) {}
+    @media only screen and (min-width: 360px) {}
 
-@media only screen and (min-width: 480px) {}
+    @media only screen and (min-width: 480px) {}
 
-@media only screen and (min-width: 720px) {}
+    @media only screen and (min-width: 720px) {}

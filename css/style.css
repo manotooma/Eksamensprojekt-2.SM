@@ -352,7 +352,65 @@ a {
     }
 }
 
-/* Gameboard-----------------------------------------------------------------------------*/
+/* Right Answer-----------------------------------------------------------------------------*/
+    
+    #right-answer {
+        height: 10000px;
+        width: 100%;
+        background-color: #51C77A;
+        
+    }
+    
+    .wrong-or-right-answer {
+        text-align: center;
+        position: absolute;
+         left: 50%;
+  margin-left: -140px;
+  top: 40%;
+  margin-top: -40px;
+        color: white;
+        line-height: 60px;
+        
+    
+    }
+    
+    .wrong-or-right-answer h3 {
+        color: white;
+        font-weight: 300
+        
+    }
+    
+/* Wrong Answer-----------------------------------------------------------------------------*/
+    
+    
+    #wrong-answer {
+        height: 10000px;
+        width: 100%;
+        background-color: #F45B69;
+        
+    }
+    
+    .wrong-or-right-answer {
+        text-align: center;
+        position: absolute;
+         left: 50%;
+  margin-left: -140px;
+  top: 40%;
+  margin-top: -40px;
+        color: white;
+        line-height: 60px;
+        
+    
+    }
+    
+    .wrong-or-right-answer h3 {
+        color: white;
+        font-weight: 300
+        
+    }
+    
+    
+    
 /* choose name -----------------------------------------------------------------------------*/
 
 #navn_billede1 {

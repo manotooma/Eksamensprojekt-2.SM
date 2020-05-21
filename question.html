@@ -38,20 +38,33 @@
    
    
    
-    </div>
-    </div>
+    
 
  
-
-<button class="button" id="katagoriKnap" onclick="pickrandomimg()">Click ME</button>
-
  
+<div id="colum-katagori">
 
 <img src="img/polygon1.png" alt="randomimg" id="mypicture" />
 
- 
-<script src="js/script.js">
+<button class="button" id="katagoriKnap" onclick="pickrandomimg()">Click ME</button>
+    </div>
 
+ 
+
+
+
+
+</div>
+    </div>
+ 
+<script>
+    
+function pickrandomimg() {
+const imagearray = new Array("img/polygon1.png", "img/polygon2.png", "img/polygon3.png");
+let randomimagesrc = imagearray[Math.floor(Math.random() * imagearray.length)];
+document.getElementById("mypicture"). src = randomimagesrc;
+console.log(randomimagesrc);
+}
 </script>
 </body>
 

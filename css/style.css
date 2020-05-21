@@ -257,12 +257,34 @@ a {
   width:100%;
   height:100vh;
   overflow:hidden;
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
     z-index: -1;
 }
 
-.fullscreen-video-wrap video{
-  min-height:100%;
-  min-width:100%;
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 100%;
 }
 
 
@@ -271,12 +293,13 @@ a {
 .content {
     margin: 0 auto;
 }
+
 .logo {
     width: 250px;
     padding-bottom: 50px;
     margin: 0 auto;
     display: block;
-    
+
 }
 
 #unilogin {
@@ -305,6 +328,7 @@ a {
     .video-1 {
         display: none;
     }
+
     .video-2 {
         display: block;
     }
@@ -314,6 +338,7 @@ a {
     .video-2 {
         display: none;
     }
+
     .video-3 {
         display: block;
     }
@@ -323,6 +348,7 @@ a {
     .video-3 {
         display: none;
     }
+
     .video-4 {
         display: block;
     }
@@ -434,7 +460,7 @@ a {
         margin-right: auto;
         margin-left: auto;
         margin-top: ;
-        
+
     }
 }
 
@@ -463,8 +489,8 @@ a {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        
-        
+
+
     }
 }
 
@@ -473,7 +499,7 @@ a {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        
+
         width: 480px;
     }
 }
@@ -550,7 +576,7 @@ a {
         width: 900px;
         margin-right: auto;
         margin-left: auto;
-        
+
     }
 }
 
@@ -563,7 +589,7 @@ a {
         width: 1200px;
         margin-right: auto;
         margin-left: auto;
-        
+
     }
 }
 
@@ -577,11 +603,30 @@ a {
         width: 850px;
         margin-right: auto;
         margin-left: auto;
-        
+
     }
 }
 
 /* Waiting Room-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) {
+.box {
+    border: solid;
+    color: white;
+    margin: 10px;
+    border-color: white;
+    width: 33.333333%;
+    padding: 10px;
+    border-radius: 33px;
+}
+
+.waiting-container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+}
+
 /* choose avatar-----------------------------------------------------------------------------*/
 /* Gameboard-----------------------------------------------------------------------------*/
 
@@ -600,7 +645,7 @@ a {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 
-    &::-webkit-scrollbar {
+    -webkit-scrollbar {
         display: none;
     }
 
@@ -611,7 +656,7 @@ a {
 }
 
 
-@media only screen and (min-width:)
+@media only screen and (min-width:) {}
 /* Waiting-----------------------------------------------------------------------------*/
 /* Question-----------------------------------------------------------------------------*/
 /* Answer-----------------------------------------------------------------------------*/
@@ -619,10 +664,32 @@ a {
 
 
 /* Scoreboard-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) {
+.score-board{
+    background-color: aquamarine;
+}
+    h1{
+        font-size: 30px
+    }
+    
+.scorebox {
+    background-color: #F2F4F3;
+    color: black; 
+    margin: 20px; 
+    min-width: 70%;
+    padding: 30px;
+    border-radius: 33px;
+}
+
+.score-container {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 
-
-
+}
 
 
 

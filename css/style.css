@@ -645,7 +645,8 @@ d .scrolling-wrapper {
 #colum-katagori {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+   
 }
 
 .card {
@@ -665,7 +666,7 @@ d .scrolling-wrapper {
 }
 
 
-/* Waiting-----------------------------------------------------------------------------*/
+/* Waiting/loading-----------------------------------------------------------------------------*/
 /*gameboard-----------------------------------------------------------------------------*/
 
 

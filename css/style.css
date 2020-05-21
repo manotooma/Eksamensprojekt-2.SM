@@ -631,12 +631,15 @@ d .scrolling-wrapper {
 }
 
 #mypicture {
-    width: 200px
+    width: 200px;
+    margin: 0 0 100px 0
 }
 
 #katagoriKnap {
     background-color: #272727;
-    margin: 80px 0 0 0
+    margin: 0 0 0 0;
+    position: absolute;
+    bottom:10%
 }
 
 #colum-katagori {
@@ -649,6 +652,17 @@ d .scrolling-wrapper {
     display: inline-block;
 }
 
+@media only screen and (min-width: 720px) {
+
+    #mypicture {
+        width: 400px
+    }
+
+
+
+
+
+}
 
 
 /* Waiting-----------------------------------------------------------------------------*/

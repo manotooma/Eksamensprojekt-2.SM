@@ -1,47 +1,80 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
     <title>Template</title>
     <meta name="keywords" content="" />
     <meta name="description" content="template" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="css/reset.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
 </head>
 
+ 
+
 <body>
-  
-   <div class="large-top-text">
+<div class="v-header container">
+    <div class="fullscreen-video-wrap">
+      <video src="img/bluebg-phone.mp4" autoplay loop muted class="video-1">
+    </video>
+    </div>
+    <div class="fullscreen-video-wrap">
+      <video src="img/bluebg-ipad.mp4" autoplay loop muted class="video-2">
+    </video>
+    </div>
+    <div class="fullscreen-video-wrap">
+      <video src="img/bluebg-smalllaptop.mp4" autoplay loop muted class="video-3">
+    </video>
+    </div>
+    <div class="fullscreen-video-wrap">
+      <video src="img/bluebg.mp4" autoplay loop muted class="video-4">
+    </video>
+    </div>
+    
+    
+    
+<div class="content">
+   
+   
+   
+   
+    
+
+ 
+ 
+<div id="colum-katagori">
+
+<div class="large-top-text">
        <h1>Swipe</h1>
        <h2>For kategori</h2>
    </div>
 
-   <div class="scrolling-wrapper">
-  <div class="card"><img src="/img/polygon2.png" alt=""></div>
-  <div class="card"><img src="/img/polygon1.png" alt=""></div>
-  <div class="card"><img src="/img/polygon3.png" alt=""></div>
-  <div class="card"><img src="/img/polygon2.png" alt=""></div>
-  <div class="card"><img src="/img/polygon1.png" alt=""></div>
-  <div class="card"><img src="/img/polygon3.png" alt=""></div>
-  <div class="card"><img src="/img/polygon2.png" alt=""></div>
-  <div class="card"><img src="/img/polygon1.png" alt=""></div>
-  
-</div>
-    
-    
-    
-    
-    
+<img src="img/polygon1.png" alt="randomimg" id="mypicture" />
 
-    <script src="js/script.js">
-    </script>
+<button class="button" id="katagoriKnap" onclick="pickrandomimg()">Click ME</button>
+    </div>
+
+ 
+
+
+
+
+</div>
+    </div>
+ 
+<script>
     
+function pickrandomimg() {
+const imagearray = new Array("img/polygon1.png", "img/polygon2.png", "img/polygon3.png");
+let randomimagesrc = imagearray[Math.floor(Math.random() * imagearray.length)];
+document.getElementById("mypicture"). src = randomimagesrc;
+console.log(randomimagesrc);
+}
+</script>
 </body>
+
+ 
+
+
 
 </html>

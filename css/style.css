@@ -617,7 +617,7 @@ a {
     padding-bottom: 80px;
 }
 
-.scrolling-wrapper {
+d .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -634,9 +634,24 @@ a {
 }
 
 
-@media only screen and (min-width:) {}
 /* Waiting-----------------------------------------------------------------------------*/
-/* Question-----------------------------------------------------------------------------*/
+/*gameboar-----------------------------------------------------------------------------*/
+#katagoriKnap {
+    background-color: #272727;
+    margin: 100px 0 0 0
+
+}
+#colum-katagori{display: flex;
+flex-direction: column;
+align-items:center}
+
+#middle-divider{width: 110px}
+
+
+
+
+
+
 /* Answer-----------------------------------------------------------------------------*/
 /* Winner-----------------------------------------------------------------------------*/
 

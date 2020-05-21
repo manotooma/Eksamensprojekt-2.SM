@@ -1,8 +1,7 @@
 /*testalert("hello")
 console.log("alert")*/
 
-    <
-    !--Initialize Swiper-- >
+    <!--Initialize Swiper-- >
     <
     script >
     var swiper = new Swiper('.swiper-container', {
@@ -14,4 +13,3 @@ console.log("alert")*/
 
 
 /* Question-----------------------------------------------------------------------------*/
-

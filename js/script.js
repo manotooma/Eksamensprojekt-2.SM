@@ -1,4 +1,5 @@
-alert("Hello!")
+alert("https://www.youtube.com/watch?v=LSBBDewUwj8")
+
  function pickrandomimg() {
             const imagearray = new Array("img/polygon1.png", "img/polygon2.png", "img/polygon3.png");
             

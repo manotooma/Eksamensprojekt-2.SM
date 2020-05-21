@@ -587,22 +587,22 @@ a {
 
 /* Waiting Room-----------------------------------------------------------------------------*/
 @media only screen and (min-width: 320px) {
-.box {
-    border: solid;
-    color: white;
-    margin: 10px;
-    border-color: white;
-    width: 33.333333%;
-    padding: 10px;
-    border-radius: 33px;
-}
+    .box {
+        border: solid;
+        color: white;
+        margin: 10px;
+        border-color: white;
+        width: 33.333333%;
+        padding: 10px;
+        border-radius: 33px;
+    }
 
-.waiting-container {
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+    .waiting-container {
+        display: flex;
+        min-height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
 
 /* choose avatar-----------------------------------------------------------------------------*/
@@ -615,7 +615,7 @@ a {
     text-align: center;
     padding-top: 10%;
     line-height: 70px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 d .scrolling-wrapper {
@@ -630,16 +630,20 @@ d .scrolling-wrapper {
 
 }
 
-#mypicture{width: 150px}
+#mypicture {
+    width: 200px
+}
 
 #katagoriKnap {
     background-color: #272727;
     margin: 80px 0 0 0
-
 }
-#colum-katagori{display: flex;
-flex-direction: column;
-align-items:center}
+
+#colum-katagori {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
 
 .card {
     display: inline-block;
@@ -663,28 +667,26 @@ align-items:center}
 
 /* Scoreboard-----------------------------------------------------------------------------*/
 @media only screen and (min-width: 320px) {
-.score-board{
-    background-color: aquamarine;
-}
-    .h1score{
-        font-size: 30px
+    .score-board {
+        background-color: aquamarine;
     }
-    
-.scorebox {
-    background-color: #F2F4F3;
-    color: black; 
-    margin: 20px; 
-    min-width: 70%;
-    padding: 30px;
-    border-radius: 33px;
-}
 
-.score-container {
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+
+    .scorebox {
+        background-color: #F2F4F3;
+        color: black;
+        margin: 20px;
+        min-width: 70%;
+        padding: 30px;
+        border-radius: 33px;
+    }
+
+    .score-container {
+        display: flex;
+        min-height: 100vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
 
 }

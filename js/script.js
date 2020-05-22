@@ -1,4 +1,4 @@
-alert("https://www.youtube.com/watch?v=LSBBDewUwj8")
+/* alert("https://www.youtube.com/watch?v=LSBBDewUwj8")  */
 
 
 /*gameboard-----------------------------------------------------------------------------*/

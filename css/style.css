@@ -60,7 +60,7 @@ p {
     ;
     /* Green */
     border: none;
-    width: 250px;
+    width: 200px;
     color: white;
     padding: 16px;
     border-radius: 40px;
@@ -586,11 +586,77 @@ a {
 }
 
 /* Waiting Room-----------------------------------------------------------------------------*/
+.pin-top {
+    position: absolute;
+    top: 0;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    width: 150px;
+    font-weight: 800;
+    color: #272727;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.middle-text {
+  
+}
+
+.middle-text h2  {
+    margin-bottom: 5px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.box-job {
+    margin: 10px;
+}
+
+.box-job p {
+    padding-top: 6px;
+    font-size: 13px;
+    
+}
+
+.image-box-job {
+    border: solid;
+    color: white;
+    margin: 10px;
+    width: 80px;
+    border-radius: 30px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#start-spil-button {
+    background-color:dodgerblue;
+    
+}
+
+.button-placeholder {
+    
+}
+
+
+
+
+/*
 @media only screen and (min-width: 320px) {
     .box {
+        margin: 0 auto;
         border: solid;
         color: white;
-        margin: 10px;
+    margin: 10px;
         border-color: white;
         width: 33.333333%;
         padding: 10px;
@@ -602,8 +668,11 @@ a {
         min-height: 100vh;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
 }
+
+*/
 
 /* choose avatar-----------------------------------------------------------------------------*/
 /* Gameboard-----------------------------------------------------------------------------*/

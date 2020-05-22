@@ -632,14 +632,12 @@ d .scrolling-wrapper {
 
 #mypicture {
 
-    width: 150px width: 200px;
+    width: 150px;
     margin: 0 0 100px 0
 }
 
 #katagoriKnap {
     background-color: #272727;
-
-    margin: 80px 0 0 0 margin: 0 0 0 0;
     position: absolute;
     bottom: 10%
 }
@@ -648,7 +646,7 @@ d .scrolling-wrapper {
     display: flex;
     flex-direction: column;
 
-    align-items: center=======align-items: center;
+    align-items: center;
 
 
 }
@@ -685,6 +683,26 @@ d .scrolling-wrapper {
 
 
 /* Scoreboard-----------------------------------------------------------------------------*/
+
+#score-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 35px;
+    border-radius: 45px
+}
+
+.inside-bar {
+    margin: auto;
+    border: 60px
+}
+
+
+
+
+
 @media only screen and (min-width: 320px) {
     .score-board {
         background-color: aquamarine;

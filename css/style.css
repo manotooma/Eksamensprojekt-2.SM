@@ -603,11 +603,9 @@ a {
     border-bottom-right-radius: 15px;
 }
 
-.middle-text {
-  
-}
+.middle-text {}
 
-.middle-text h2  {
+.middle-text h2 {
     margin-bottom: 5px;
 }
 
@@ -615,7 +613,9 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    overflow: auto;
+   height: 70vh
+
 }
 
 .box-job {
@@ -625,7 +625,7 @@ a {
 .box-job p {
     padding-top: 6px;
     font-size: 13px;
-    
+
 }
 
 .image-box-job {
@@ -639,13 +639,11 @@ a {
 }
 
 #start-spil-button {
-    background-color:dodgerblue;
-    
+    background-color: dodgerblue;
+
 }
 
-.button-placeholder {
-    
-}
+.button-placeholder {}
 
 
 
@@ -767,12 +765,6 @@ d .scrolling-wrapper {
     margin: auto;
     border: 60px
 }
-
-
-
-
-
-
 
 
 /*Media@

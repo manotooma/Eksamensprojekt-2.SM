@@ -617,7 +617,12 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     overflow: auto;
-    height: 70vh
+    height: 70vh;
+    margin-top:  10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+
+
 }
 
 .box-job {
@@ -647,7 +652,12 @@ a {
 
 .button-placeholder {}
 
-
+@media only screen and (min-width:768px) {
+    .image-box-job {
+        width: 120px;
+        height: 120px;
+    }
+}
 
 
 /*

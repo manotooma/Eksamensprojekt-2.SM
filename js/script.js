@@ -24,7 +24,7 @@ getUsersBtnElement.addEventListener("click", getScore);
 
 
 function getScore() {
-    fetch('json/score.json')
+    fetch('./json/score.json')
         .then((res) => res.json())
         .then((data) => {
             let output = '<h2 class="">Scoreboard</h2>';

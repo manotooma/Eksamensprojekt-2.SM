@@ -617,12 +617,18 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     overflow: auto;
-    height: 70vh;
+    height: 60vh;
     margin-top:  10px;
     margin-bottom: 10px;
     padding-bottom: 30px;
 
 
+}
+
+
+
+#avatar-changes {
+    height: 60vh;
 }
 
 .box-job {
@@ -643,6 +649,12 @@ a {
     border-radius: 30px;
     height: 80px;
     margin: 0 auto;
+}
+
+#avatar-box-job-changes {
+ 
+    width: 100px;
+    height: 100px;
 }
 
 #start-spil-button {

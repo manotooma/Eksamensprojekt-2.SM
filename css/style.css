@@ -556,9 +556,14 @@ a {
 
 /* choose name -----------------------------------------------------------------------------*/
 
+  #navn_billede {
+        overflow: hidden;
+        display: block;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
 
-
-
+    }
 
 @media only screen and (min-width: 760px) {
 
@@ -630,7 +635,7 @@ a {
     flex-wrap: wrap;
     overflow: auto;
     height: 60vh;
-    margin-top:  10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 30px;
 
@@ -664,7 +669,7 @@ a {
 }
 
 #avatar-box-job-changes {
- 
+
     width: 100px;
     height: 100px;
 }
@@ -710,13 +715,15 @@ a {
 
 /* choose avatar-----------------------------------------------------------------------------*/
 /* answer-----------------------------------------------------------------------------*/
-.question-container-answer{  margin-left: auto;
+.question-container-answer {
+    margin-left: auto;
     margin-right: auto;
     height: 86vh;
     max-width: 1500px;
     overflow: hidden;
     border-radius: 30px 30px 0 0;
-    padding: 1rem 1rem 0rem 1rem;}
+    padding: 1rem 1rem 0rem 1rem;
+}
 
 
 /* question-----------------------------------------------------------------------------*/
@@ -841,74 +848,75 @@ a {
     margin: 0 0 0 0
 }
 
-@media only screen and (min-width: 330px) {.container-qanda{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-@media only screen and (min-width: 720px) {
-
-    #question-header {
-        margin-top: 10px;
-    }
-    
-    .question-container {
-        height: 87vh;
-        
+@media only screen and (min-width: 330px) {
+    .container-qanda {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
-    .question {
-        width: 690px;
-        padding: 56px;
+    @media only screen and (min-width: 720px) {
+
+        #question-header {
+            margin-top: 10px;
+        }
+
+        .question-container {
+            height: 87vh;
+
+        }
+
+        .question {
+            width: 690px;
+            padding: 56px;
 
 
-    }
-    
-    #p-question {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+        }
+
+        #p-question {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
 
 
-    .question-box-container {
-        margin: 10vh 0 0 0
-    }
-}
-
-@media only screen and (min-width: 1220px) {
-    
-    .question-container {
-        height: 80vh;
-    }
-    
-    #question-header {
-        margin-top: 50px;
-        margin-bottom: 51px;
-    }
-    
-
-    .question-box-container {
-        margin: 0 auto;
-        height: 350px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin: 1vh 0 0 0
+        .question-box-container {
+            margin: 10vh 0 0 0
+        }
     }
 
-    #p-question {
-        font-size: 40px;
-        line-height: 50px;
-        
-        text-align: center
-    }
+    @media only screen and (min-width: 1220px) {
 
-    .question {
-        padding: 60px;
-        font-size: 4vh
+        .question-container {
+            height: 80vh;
+        }
+
+        #question-header {
+            margin-top: 50px;
+            margin-bottom: 51px;
+        }
+
+
+        .question-box-container {
+            margin: 0 auto;
+            height: 350px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 1vh 0 0 0
+        }
+
+        #p-question {
+            font-size: 40px;
+            line-height: 50px;
+
+            text-align: center
+        }
+
+        .question {
+            padding: 60px;
+            font-size: 4vh
+        }
     }
-}
 }
 
 
@@ -994,22 +1002,96 @@ d .scrolling-wrapper {
 
 
 /* Scoreboard-----------------------------------------------------------------------------*/
+.v-header-scoreboard {
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+}
+
+#h1_score {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2vh 0 2vh 0
+}
+
+#output {
+    overflow: auto;
+    height: 81vh;
+    font-size: 1rem;
+    color: #000
+}
 
 #score-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 50px;
-    background-color: aquamarine;
-    margin: 35px;
-    border-radius: 45px
+    max-width: 1500px;
+    background-color: #fff;
+    margin: 15px 1rem 15px 1rem;
+    border-radius: 45px;
+
 }
 
 .inside-bar {
     margin: auto;
-    border: 60px
+
 }
 
+.place {
+    font-size: 30px
+}
+
+.button_placement {
+    text-align: center;
+    margin: 6px 0 20px 0
+}
+
+#getScore {
+    background-color: #44AF69;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    padding: 0px;
+
+}
+
+@media only screen and (min-width: 360px) {
+    #getScore {
+        margin: 2vh 00 0
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #h1_score {
+        font-size: 3rem;
+    }
+
+    #output {
+        overflow: auto;
+        height: 76vh;
+        font-size: 2rem
+    }
+
+    #score-bar {
+        margin: auto auto 15px
+    }
+
+    .button_placement {
+        text-align: center;
+        margin: 26px 0 20px 0
+    }
+
+    #getScore {
+        background-color: #44AF69;
+        height: 100px;
+        font-size: 26px;
+        margin: auto;
+        padding: 0px;
+
+    }
+    }
+}
 
 /*Media@
 ---------------------------------------------------------------------------*/

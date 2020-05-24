@@ -10,11 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap" rel="stylesheet">
+
 
 </head>
 
-<body>
+<body onload="sendToScore()">
    <div class="v-header container">
     <div class="fullscreen-video-wrap">
       <video src="img/redbg-phone.mp4" autoplay loop muted class="video-1">
@@ -34,27 +35,39 @@
     </div>
     
     
-<div class="content">
-    <section id="join_sec">
-        <div id="pin_billede1">
-            <img src="img/boy%20addicted.png" id="pin_billede" alt="Digitalk; skriv pin, join game">
-        </div>
+<div class="content"> 
+    <div id="wrong-answer">
+        <div class="wrong-or-right-answer">
 
-        <div class="square" id="square_join">
-            <div class="button_placement">
-               <a href="./chooseName.html"> <button type="button" class="button" id="skrivpin">SKRIV PIN..</button></a>
-            </div>
-            <div Class="textcontainer">
-                <p id="p_joingame">Hello world</p>
-            </div>
+            <h3>Du var</h3>
+            <h1>Langsom</h1>
 
         </div>
-    </section>
+    </div>
        </div>
     </div>
 
     <script src="js/script.js">
     </script>
-   
-</body>
-</html>
+    
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+</body></html>

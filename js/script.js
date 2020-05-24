@@ -66,7 +66,7 @@ function sendToScore() {
     );
 };
 
-/*Scoreboard-kopi--------------------*/
+/*Scoreboard--------------------*/
 
 /*const getUsersBtnElement = document.getElementById("getScore");
 
@@ -94,4 +94,14 @@ function getScore() {
             document.getElementById('output').innerHTML = output;
         })
 
+};
+function goToWinner(){
+    setTimeout(function () {
+            location.replace("./winner.html");
+        }, 20000
+
+
+    );
+    
+    
 }

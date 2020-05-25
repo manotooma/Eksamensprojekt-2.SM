@@ -1,13 +1,13 @@
 /*alert("https://www.youtube.com/watch?v=LSBBDewUwj8")*/
 /*index-----------------------------------------------------------------------------*/
 
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 50,
-      pagination: {
+var swiper = new Swiper('.swiper-container', {
+    spaceBetween: 50,
+    pagination: {
         el: '.swiper-pagination',
         dynamicBullets: true,
-      },
-    });
+    },
+});
 
 /*gameboard-----------------------------------------------------------------------------*/
 
@@ -15,14 +15,36 @@ function pickrandomimg() {
     const imagearray = new Array("img/polygon1.gif", "img/polygon2.gif", "img/polygon3.gif");
 
     let randomimagesrc = imagearray[Math.floor(Math.random() * imagearray.length)];
+console.log(randomimagesrc);
+
+    if (randomimagesrc == "img/polygon1.gif") {
+
+        setTimeout(function () {
+            location.replace("./question-dialog.html");
+        }, 6000);
+    } else if (randomimagesrc == "img/polygon2.gif") {
+
+        setTimeout(function () {
+            location.replace("./question-quiz.html");
+        }, 6000);
+
+    } else if (randomimagesrc == "img/polygon3.gif") {
+
+        setTimeout(function () {
+            location.replace("./question-billede.html");
+        }, 6000);
+    }
+
+
+
 
     document.getElementById("mypicture").src = randomimagesrc;
 
     console.log(randomimagesrc);
 
-};
+}
 
-function changeLocation() {
+/*function changeLocation() {
     setTimeout(function () {
             location.replace("./question.html");
         }, 6000
@@ -31,7 +53,7 @@ function changeLocation() {
     );
 
 
-};
+};*/
 /*Question-----------------------------------------------------------------------------*/
 function sendToScoreFromQuestion() {
     setTimeout(function () {
@@ -95,13 +117,14 @@ function getScore() {
         })
 
 };
-function goToWinner(){
+
+function goToWinner() {
     setTimeout(function () {
             location.replace("./winner.html");
         }, 20000
 
 
     );
-    
-    
+
+
 }

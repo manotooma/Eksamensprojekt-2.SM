@@ -556,14 +556,10 @@ a {
 
 /* choose name -----------------------------------------------------------------------------*/
 
-  #navn_billede {
+#navn_billede{
+    width:;
         overflow: hidden;
-        display: block;
-        width: 300px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
+}
 
 @media only screen and (min-width: 760px) {
 
@@ -919,6 +915,9 @@ a {
     }
 }
 
+/* question-billede-----------------------------------------------------------------------------*/
+
+#quiz-billede{width: 90%; margin: 1vh 0 0 0}
 
 
 /* Gameboard-----------------------------------------------------------------------------*/

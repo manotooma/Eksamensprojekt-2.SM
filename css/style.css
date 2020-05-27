@@ -27,14 +27,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 70px;
-    color: ;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 35px;
-    color: ;
 }
 
 h3 {
@@ -48,7 +46,6 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 22px;
-    color: ;
 }
 
 .button_placement {
@@ -153,12 +150,10 @@ a {
 .kom_i_gang h3 {
     margin-top: 50px;
     padding-bottom: 20px;
-    5
 }
 
 #flex_dash_buttons {
     display: flex;
-
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -305,8 +300,6 @@ a {
 }
 
 #licens {
-    background-color: 272727;
-
     color: #272727;
 }
 
@@ -457,7 +450,6 @@ a {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        margin-top: ;
 
     }
 }
@@ -468,7 +460,6 @@ a {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        margin-top: ;
         width: 480px;
     }
 
@@ -560,11 +551,15 @@ a {
 
 
 /* choose name -----------------------------------------------------------------------------*/
-
-#navn_billede{
-    width:;
+ #navn_billede {
         overflow: hidden;
-}
+        display: block;
+        width: 90vw ;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
 
 @media only screen and (min-width: 760px) {
 
@@ -710,30 +705,6 @@ a {
 }
 
 
-/*
-@media only screen and (min-width: 320px) {
-    .box {
-        margin: 0 auto;
-        border: solid;
-        color: white;
-    margin: 10px;
-        border-color: white;
-        width: 33.333333%;
-        padding: 10px;
-        border-radius: 33px;
-    }
-
-    .waiting-container {
-        display: flex;
-        min-height: 100vh;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-    }
-}
-
-*/
-
 /* choose avatar-----------------------------------------------------------------------------*/
 /* answer-----------------------------------------------------------------------------*/
 .question-container-answer {
@@ -774,7 +745,6 @@ a {
     border-radius: 100px;
     align-items: center;
     position: relative;
-    padding: 0 px;
     display: flex;
     height: 15px;
     margin: 0 0 7px 0;
@@ -788,7 +758,6 @@ a {
     border-radius: 100px;
     background: #F45B69;
     height: 15px;
-    width: ;
 }
 
 @keyframes load {
@@ -963,9 +932,9 @@ d .scrolling-wrapper {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 
-    -webkit-scrollbar {
+    /*-webkit-scrollbar {
         display: none;
-    }
+    }*/
 
 }
 
@@ -1115,7 +1084,6 @@ d .scrolling-wrapper {
 
     }
     }
-}
 
 /*Media@
 ---------------------------------------------------------------------------*/

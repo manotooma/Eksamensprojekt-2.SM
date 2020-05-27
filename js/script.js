@@ -79,14 +79,14 @@ function answerTimeout() {
 
 
 /*right or wrong--------------------*/
-/*function sendToScore() {
+function sendToScore() {
     setTimeout(function () {
             location.replace("./scoreboard-deltager.html");
         }, 3000
 
 
     );
-};*/
+};
 
 /*Scoreboard--------------------*/
 

@@ -1011,7 +1011,7 @@ d .scrolling-wrapper {
     overflow: auto;
     height: 81vh;
     font-size: 1rem;
-    color: #000
+    color: #000;
 }
 
 #score-bar {
@@ -1027,12 +1027,12 @@ d .scrolling-wrapper {
 }
 
 .inside-bar {
-    margin: auto;
+    margin: 1rem 2rem 1rem 4rem;
 
 }
 
 .place {
-    font-size: 30px
+    font-size: 20px
 }
 
 .button_placement {
@@ -1060,11 +1060,7 @@ d .scrolling-wrapper {
         font-size: 3rem;
     }
 
-    #output {
-        overflow: auto;
-        height: 76vh;
-        font-size: 2rem
-    }
+ 
 
     #score-bar {
         margin: auto auto 15px

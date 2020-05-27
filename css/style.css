@@ -555,11 +555,15 @@ a {
 
 
 /* choose name -----------------------------------------------------------------------------*/
-
-#navn_billede{
-    width:;
+ #navn_billede {
         overflow: hidden;
-}
+        display: block;
+        width: 90vw ;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
 
 @media only screen and (min-width: 760px) {
 

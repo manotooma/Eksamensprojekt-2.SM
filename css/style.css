@@ -544,20 +544,7 @@ a {
 
 
 }
-.timeout-answer {
-    text-align: center;
-    position: absolute;
-    left: 4%;
-    margin-left: -140px;
-    top: 40%;
-    margin-top: -40px;
-    color: white;
-    line-height: 50px;
 
-
-}
-#timeout_h3{color: white}
-#timeout_h1{font-size: 60px}
 
 .wrong-or-right-answer h3 {
     color: white;

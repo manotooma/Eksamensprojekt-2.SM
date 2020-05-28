@@ -44,16 +44,6 @@ console.log(randomimagesrc);
 
 }
 
-/*function changeLocation() {
-    setTimeout(function () {
-            location.replace("./question.html");
-        }, 6000
-
-
-    );
-
-
-};*/
 /*Question-----------------------------------------------------------------------------*/
 function sendToScoreFromQuestion() {
     setTimeout(function () {
@@ -82,7 +72,7 @@ function answerTimeout() {
 function sendToScore() {
     setTimeout(function () {
             location.replace("./scoreboard-deltager.html");
-        }, 3000
+        }, 4000
 
 
     );

@@ -426,7 +426,6 @@ a {
     text-align: center;
 }
 
-#square_join {}
 
 @media only screen and (min-width: 360px) {
     #pin_billede {
@@ -436,6 +435,8 @@ a {
         width: 90wv;
 
     }
+    .square{width: 300px}
+    
 }
 
 @media only screen and (min-width: 720px) {
@@ -956,13 +957,12 @@ d .scrolling-wrapper {
 #mypicture {
 
     width: 250px;
-    margin: 0 0 130px 0;
+    margin: 0 0 5vh 0;
 }
 
 #katagoriKnap {
     background-color: #272727;
-    position: absolute;
-    bottom: 10%
+   
 }
 
 #colum-katagori {
